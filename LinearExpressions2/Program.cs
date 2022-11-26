@@ -7,24 +7,23 @@ System.Threading.Thread.CurrentThread.CurrentCulture = customCulture;
 Console.OutputEncoding = Encoding.Unicode;
 Console.InputEncoding = Encoding.Unicode;
 
-double a, b , c, d;
+double m, n, x, a, b;
 
+m = GetNumber("m");
+n = GetNumber("n");
+x = GetNumber("x");
 a = GetNumber("a");
 b = GetNumber("b");
-c = GetNumber("c");
-d = GetNumber("d");
 
-double x, y, z, r;
+double z1, z2, y;
 
-x = ((a + 2 * b - c + d) / (c * d)) + ((a + b) / (c - d)) - ((a * a) / (b * b));
-y = (5 * (a + b) * (c - d)) / (( 1 / 2) * c) + (d * d) * ((a * a - b * b) / (b - a));
-z = (Math.Pow(x * x - 2 * x, 3) - 4 * (Math.Pow(x, 4) + 1) * (1 - b)) / (5 * a + 3 * b);
-r = ((1 / 2 * a + 3 / 4 * b - 7 / 5) / (3 * c + 1)) + (1 / (a - c));
+z1 = ((m - 1) * Math.Sqrt(m) - (n - 1) * Math.Sqrt(n)) / (Math.Sqrt(Math.Pow(m, 3) * n) + n * m + m * m - m);
+z2 = (Math.Sqrt(m) - Math.Sqrt(n)) / m;
+y = 2.4 * Math.Abs((x * x + b) / a) + (a + b) * Math.Pow(Math.Sin(a - b), 2) + Math.Pow(10, -2) * (x - b);
 
-ShowResult("x", x); 
+ShowResult("z1", z1);
+ShowResult("z2", z2);
 ShowResult("y", y);
-ShowResult("z", z);
-ShowResult("r", r);
 Console.ReadKey();
 
 double GetNumber(string name)
