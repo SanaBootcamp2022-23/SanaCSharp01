@@ -11,6 +11,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.md = README.md
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinearExpressions2", "LinearExpressions2\LinearExpressions2.csproj", "{5B5FECCA-500C-483C-B18A-658102F5E46B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{FD092126-21E6-4C9A-9ECB-84517F4C97DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FD092126-21E6-4C9A-9ECB-84517F4C97DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FD092126-21E6-4C9A-9ECB-84517F4C97DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B5FECCA-500C-483C-B18A-658102F5E46B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B5FECCA-500C-483C-B18A-658102F5E46B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B5FECCA-500C-483C-B18A-658102F5E46B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B5FECCA-500C-483C-B18A-658102F5E46B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
