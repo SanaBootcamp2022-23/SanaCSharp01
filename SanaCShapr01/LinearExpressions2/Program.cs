@@ -1,2 +1,20 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using static System.Math;
+
+double m, n;
+Console.Write("Input m: ");
+m = double.Parse(Console.ReadLine());
+Console.Write("Input n: ");
+n = double.Parse(Console.ReadLine());
+double z1 = ((m - 1) * Sqrt(m) - (n - 1) * Sqrt(n)) / (Sqrt(Pow(m, 3) * n) + n * m + Pow(m, 2) - m);
+Console.WriteLine($"z1= {z1}");
+double z2 = (Sqrt(m) - Sqrt(n)) / m;
+Console.WriteLine($"z2= {z2}");
+double x, a, b;
+Console.Write("Input x: ");
+x = double.Parse(Console.ReadLine());
+Console.Write("Input a: ");
+a = double.Parse(Console.ReadLine());
+Console.Write("Input b: ");
+b = double.Parse(Console.ReadLine());
+double y = 2.4 * Abs((Pow(x, 2) + b) / a) + (a - b) * Pow(Sin(a - b), 2) + Pow(10, -2) * (x - b);
+Console.WriteLine($"y= {y}");
