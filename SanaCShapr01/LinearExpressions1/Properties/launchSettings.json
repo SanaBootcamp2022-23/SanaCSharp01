@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "LinearExpressions1": {
+      "commandName": "Project"
+    },
+    "Профиль 1": {
+      "commandName": "Executable"
+    }
+  }
+}

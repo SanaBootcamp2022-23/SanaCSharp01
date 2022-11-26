@@ -1,0 +1,13 @@
+﻿Console.Write("Задайте число а: ");
+double a = Convert.ToDouble(Console.ReadLine());
+Console.Write("Задайте число b: ");
+double b = Convert.ToDouble(Console.ReadLine());
+Console.Write("Задайте число c: ");
+double c = Convert.ToDouble(Console.ReadLine());
+Console.Write("Задайте число d: ");
+double d = Convert.ToDouble(Console.ReadLine());
+double x = ((a+2*b-c+d)/(c*d))+((a+b)/(c-d))-(Math.Pow(a,2)/Math.Pow(b,2));
+double y = ((5 * (a + b) * (c - d)) / (1.0/2.0)*c) + (Math.Pow(d, 2) * ((Math.Pow(a, 2) - Math.Pow(b, 2))/(b-a))); 
+double z = (Math.Pow((Math.Pow(x, 2) - 2 * x), 3) - 4 * (Math.Pow(x, 4) + 1) * (1 - b)) / (5 * a + 3 * b);
+double r = (((1.0 /2.0) * a)+((3.0 / 4.0) * b)-(7.0/5.0))/(3*c+1)+(1/(a-c));
+Console.WriteLine("Число x = {0} \nЧисло y = {1} \nЧисло z = {2} \nЧисло r = {3}", x, y, z, r);
