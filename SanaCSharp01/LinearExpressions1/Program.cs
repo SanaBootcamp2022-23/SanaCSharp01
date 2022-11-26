@@ -2,16 +2,16 @@
 double a, b, c, d;
 
 Console.WriteLine("Enter a:");
-a = double.Parse(Console.ReadLine());
+a = double.Parse(Console.ReadLine() ?? "0");
 
 Console.WriteLine("Ender b:");
-b = double.Parse(Console.ReadLine());
+b = double.Parse(Console.ReadLine() ?? "0");
 
 Console.WriteLine("Ender c:");
-c = double.Parse(Console.ReadLine());
+c = double.Parse(Console.ReadLine() ?? "0");
 
 Console.WriteLine("Ender d:");
-d = double.Parse(Console.ReadLine());
+d = double.Parse(Console.ReadLine() ?? "0");
 
 double x = (a + 2 * b - c + d) / c * d + (a + b) / (c - d) - Math.Pow(a, 2) / Math.Pow(b, 2);
 double y = 5 * (a + b) * (c - d) / 1.0 / 2 * c + Math.Pow(d, 2) * (Math.Pow(a, 2) - Math.Pow(b, 2)) / (b - a);
