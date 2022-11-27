@@ -20,7 +20,7 @@ Console.WriteLine($"\nx = {x}");
 
 double y = (5 * ((a + b) * (c - d))) / (0.5 * c) + (Math.Pow(d, 2) * (((Math.Pow(a, 2)) - Math.Pow(b, 2)) / (b - a)));
 Console.WriteLine($"\ny = {y}");
-x = 5;
+
 double z = ((Math.Pow((Math.Pow(x, 2) - 2 * x), 3) - 4 * (Math.Pow(x, 4) + 1)) * (1 - b)) / ((5 * a) + (3 * b));
 
 Console.WriteLine($"\nz = {z}");
