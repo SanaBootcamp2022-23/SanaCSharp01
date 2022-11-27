@@ -1,0 +1,14 @@
+﻿double a,b,c,d;
+Console.WriteLine("Enter a = ");
+a = double.Parse(Console.ReadLine());
+Console.WriteLine("Enter b = ");
+b = double.Parse(Console.ReadLine());
+Console.WriteLine("Enter c = ");
+c = double.Parse(Console.ReadLine());
+Console.WriteLine("Enter d = ");
+d = double.Parse(Console.ReadLine());
+double x = a+2*b-c+d/(c*d) + ((a+b)-(c-d)) - ((a*a)/(b*b));
+double y = ((5 * (a + b) * (c - d) )/ (c * 0.5)) + (d * d) * ((a * a - b * b) / (b - a));
+double z = (Math.Pow(x * x - (2 * x), 3) - (4 * (x * x * x * x + 1) * (1 - b))) / (5 * a + 3 * b);
+double r = (a * 0.5 + b * 0.75 - 7.0/5) / (3 * c + 1) + (1/(a-c));
+Console.WriteLine($"X = {x}\nY = {y}\nZ= {z}\nR= {r}");
