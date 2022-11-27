@@ -10,6 +10,6 @@
 
 Завдання:
 - [x] LinearExpressions1
-- [ ] LinearExpressions2
+- [x] LinearExpressions2
 
 Виконав: Колесник Анатолій
