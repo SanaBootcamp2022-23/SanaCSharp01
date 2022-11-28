@@ -24,12 +24,19 @@
 
     public static double ParseDoubleVar(string varName)
     {
+        bool success;
         double result;
 
-        Console.Write($"Insert value for {varName}: ");
-        var success = double.TryParse(Console.ReadLine(), out result);
+        do
+        {
+            Console.Write($"Insert value for {varName}: ");
+            success = double.TryParse(Console.ReadLine(), out result);
 
-        return success ? result : 0;
+            if (!success)
+                Console.WriteLine("\nParsing error, try again");
+        } while (!success);
+
+        return result;
     }
 
     public static double Z1(double m, double n)
@@ -37,6 +44,7 @@
         return ((m - 1) * Math.Sqrt(m) - (n - 1) * Math.Sqrt(n)) /
                (Math.Sqrt(Math.Pow(m, 3) * n) + n * m + Math.Pow(m, 2) - m);
     }
+
     public static double Z2(double m, double n)
     {
         return (Math.Sqrt(m) - Math.Sqrt(n)) / m;

@@ -25,12 +25,19 @@ internal class Program
 
     public static double ParseDoubleVar(string varName)
     {
+        bool success;
         double result;
 
-        Console.Write($"Insert value for {varName}: ");
-        var success = double.TryParse(Console.ReadLine(), out result);
+        do
+        {
+            Console.Write($"Insert value for {varName}: ");
+            success = double.TryParse(Console.ReadLine(), out result);
 
-        return success ? result : 0;
+            if (!success)
+                Console.WriteLine("\nParsing error, try again");
+        } while (!success);
+
+        return result;
     }
 
     public static double X(double a, double b, double c, double d)
