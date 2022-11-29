@@ -49,9 +49,9 @@ do
 //Перевіряємо введені дані
 
 double x = ((a + 2 * b - c + d) / (c * d)) + ((a + b) / (c - d)) - (a * a / (b * b));
-double y = (5 * (a + b) * (c - d) / (1 / 2 * c)) + d * d * ((a * a - b * b) / (b - a));
-double z = (Math.Pow(x * x - 2 * x, 3) - 4 * (Math.Pow(x, 4) + 1) * (1 - b)) / (5 * a + 3 * b);
-double r = ((1 / 2 * a + 3 / 4 * b - 7 / 5) / (3 * c + 1)) + (1 / (a - c));
+double y = (5 * (a + b) * (c - d) / (1.0 / 2 * c)) + d * d * ((a * a - b * b) / (b - a));
+double z = ((Math.Pow((x * x - 2 * x), 3) - (4 * (Math.Pow(x, 4) + 1))) * (1 - b)) / (5 * a + 3 * b);
+double r = ((1.0 / 2 * a + 3.0 / 4 * b - 7.0 / 5) / (3 * c + 1)) + (1 / (a - c));
 
 Console.WriteLine("\nРезультат:");
 Console.WriteLine($"Число x: {Math.Round(x, 3)}");
