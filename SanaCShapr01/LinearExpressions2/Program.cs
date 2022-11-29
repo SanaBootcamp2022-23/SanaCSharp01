@@ -8,6 +8,10 @@
             {
                 Console.WriteLine("The program \"LinearExpressions2\"\n");
 
+                System.Globalization.CultureInfo customCulture = (System.Globalization.CultureInfo)Thread.CurrentThread.CurrentCulture.Clone();
+                customCulture.NumberFormat.NumberDecimalSeparator = ".";
+                Thread.CurrentThread.CurrentCulture = customCulture;
+
                 Console.WriteLine("Please enter double input values.");
                 var numberA = ReadDouble("a");
                 var numberB = ReadDouble("b");
