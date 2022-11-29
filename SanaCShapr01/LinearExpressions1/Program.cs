@@ -8,7 +8,7 @@
             {
                 Console.WriteLine("The program \"LinearExpressions1\"\n");
 
-                Console.WriteLine("Please input double input values.");
+                Console.WriteLine("Please enter double input values.");
                 var numberA = ReadDouble("a");
                 var numberB = ReadDouble("b");
                 var numberC = ReadDouble("c");
