@@ -7,7 +7,7 @@ m = Double.Parse(Console.ReadLine());
 Console.WriteLine("Введіть число n: ");
 n = Double.Parse(Console.ReadLine());
 
-double z1 = ((m - 1) * Math.Sqrt(m) - (n - 1) * Math.Sqrt(n)) / (Math.Pow(m * m * m * n, 1.0 / 3) + n * m + m * m - m);
+double z1 = ((m - 1) * Math.Sqrt(m) - (n - 1) * Math.Sqrt(n)) / (Math.Pow(Math.Pow(m,3) * n, 1.0 / 3) + n * m + Math.Pow(m,2) - m);
 Console.WriteLine($"z1 = {z1}");
 
 double z2 = (Math.Sqrt(m) - Math.Sqrt(n)) / m;
