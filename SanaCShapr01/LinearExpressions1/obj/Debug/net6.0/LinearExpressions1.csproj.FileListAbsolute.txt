@@ -1,0 +1,15 @@
+C:\__My\__5-SEM\Sana\Labs\SanaCSharp01\SanaCShapr01\LinearExpressions1\bin\Debug\net6.0\LinearExpressions1.exe
+C:\__My\__5-SEM\Sana\Labs\SanaCSharp01\SanaCShapr01\LinearExpressions1\bin\Debug\net6.0\LinearExpressions1.deps.json
+C:\__My\__5-SEM\Sana\Labs\SanaCSharp01\SanaCShapr01\LinearExpressions1\bin\Debug\net6.0\LinearExpressions1.runtimeconfig.json
+C:\__My\__5-SEM\Sana\Labs\SanaCSharp01\SanaCShapr01\LinearExpressions1\bin\Debug\net6.0\LinearExpressions1.dll
+C:\__My\__5-SEM\Sana\Labs\SanaCSharp01\SanaCShapr01\LinearExpressions1\bin\Debug\net6.0\LinearExpressions1.pdb
+C:\__My\__5-SEM\Sana\Labs\SanaCSharp01\SanaCShapr01\LinearExpressions1\obj\Debug\net6.0\LinearExpressions1.csproj.AssemblyReference.cache
+C:\__My\__5-SEM\Sana\Labs\SanaCSharp01\SanaCShapr01\LinearExpressions1\obj\Debug\net6.0\LinearExpressions1.GeneratedMSBuildEditorConfig.editorconfig
+C:\__My\__5-SEM\Sana\Labs\SanaCSharp01\SanaCShapr01\LinearExpressions1\obj\Debug\net6.0\LinearExpressions1.AssemblyInfoInputs.cache
+C:\__My\__5-SEM\Sana\Labs\SanaCSharp01\SanaCShapr01\LinearExpressions1\obj\Debug\net6.0\LinearExpressions1.AssemblyInfo.cs
+C:\__My\__5-SEM\Sana\Labs\SanaCSharp01\SanaCShapr01\LinearExpressions1\obj\Debug\net6.0\LinearExpressions1.csproj.CoreCompileInputs.cache
+C:\__My\__5-SEM\Sana\Labs\SanaCSharp01\SanaCShapr01\LinearExpressions1\obj\Debug\net6.0\LinearExpressions1.dll
+C:\__My\__5-SEM\Sana\Labs\SanaCSharp01\SanaCShapr01\LinearExpressions1\obj\Debug\net6.0\refint\LinearExpressions1.dll
+C:\__My\__5-SEM\Sana\Labs\SanaCSharp01\SanaCShapr01\LinearExpressions1\obj\Debug\net6.0\LinearExpressions1.pdb
+C:\__My\__5-SEM\Sana\Labs\SanaCSharp01\SanaCShapr01\LinearExpressions1\obj\Debug\net6.0\LinearExpressions1.genruntimeconfig.cache
+C:\__My\__5-SEM\Sana\Labs\SanaCSharp01\SanaCShapr01\LinearExpressions1\obj\Debug\net6.0\ref\LinearExpressions1.dll
