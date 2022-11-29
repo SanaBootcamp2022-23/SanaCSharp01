@@ -49,17 +49,28 @@
 
     public static double Z1(double m, double n)
     {
+        double denonimator = Math.Sqrt(Math.Pow(m, 3) * n) + n * m + Math.Pow(m, 2) - m;
+
+        if (denonimator == 0)
+            throw new DivideByZeroException();
+
         return ((m - 1) * Math.Sqrt(m) - (n - 1) * Math.Sqrt(n)) /
-               (Math.Sqrt(Math.Pow(m, 3) * n) + n * m + Math.Pow(m, 2) - m);
+               (denonimator);
     }
 
     public static double Z2(double m, double n)
     {
+        if (m == 0)
+            throw new DivideByZeroException();
+
         return (Math.Sqrt(m) - Math.Sqrt(n)) / m;
     }
 
     public static double Y(double a, double b, double x)
     {
+        if (a == 0)
+            throw new DivideByZeroException();
+
         return 2.4 *
                Math.Abs((x * x + b) / a) +
                (a - b) *

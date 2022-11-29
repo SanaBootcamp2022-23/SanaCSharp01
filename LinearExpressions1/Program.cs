@@ -50,6 +50,9 @@ internal class Program
 
     public static double X(double a, double b, double c, double d)
     {
+        if (c * d == 0 || c - d == 0 || b * b == 0)
+            throw new DivideByZeroException();
+
         return (a + 2 * b - c + d) /
         (c * d) +
         (a + b) /
@@ -60,6 +63,9 @@ internal class Program
 
     public static double Y(double a, double b, double c, double d)
     {
+        if (c * 0.5 == 0 || b - a == 0)
+            throw new DivideByZeroException();
+
         return (5 *
             (a + b) *
             (c - d) /
@@ -70,12 +76,18 @@ internal class Program
 
     public static double Z(double a, double b, double x)
     {
+        if (5 * a + 3 * b == 0)
+            throw new DivideByZeroException();
+
         return (Math.Pow(x * x - 2 * x, 3) - 4 * (Math.Pow(x, 4) + 1) * (1 - b)) /
                (5 * a + 3 * b);
     }
 
     public static double R(double a, double b, double c)
     {
+        if (3 * c + 1 == 0 || a - c == 0)
+            throw new DivideByZeroException();
+
         return (1.0 / 2 * a + 3.0 / 4 * b - 7.0 / 5) /
             (3 * c + 1) +
             1.0 /
