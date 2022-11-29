@@ -5,22 +5,30 @@ internal class Program
         double a, b, c, d,
             x, y, z, r;
 
-        Console.WriteLine("");
-        a = ParseDoubleVar(nameof(a));
-        b = ParseDoubleVar(nameof(b));
-        c = ParseDoubleVar(nameof(c));
-        d = ParseDoubleVar(nameof(d));
+        try
+        {
+            Console.WriteLine("");
+            a = ParseDoubleVar(nameof(a));
+            b = ParseDoubleVar(nameof(b));
+            c = ParseDoubleVar(nameof(c));
+            d = ParseDoubleVar(nameof(d));
 
-        x = X(a, b, c, d);
-        y = Y(a, b, c, d);
-        z = Z(a, b, x);
-        r = R(a, b, c);
+            x = X(a, b, c, d);
+            y = Y(a, b, c, d);
+            z = Z(a, b, x);
+            r = R(a, b, c);
 
-        Console.WriteLine($"\nResult:");
-        Console.WriteLine($"\tx = {x:0.00}");
-        Console.WriteLine($"\ty = {y:0.00}");
-        Console.WriteLine($"\tz = {z:0.00}");
-        Console.WriteLine($"\tr = {r:0.00}");
+            Console.WriteLine($"\nResult:");
+            Console.WriteLine($"\tx = {x:0.00}");
+            Console.WriteLine($"\ty = {y:0.00}");
+            Console.WriteLine($"\tz = {z:0.00}");
+            Console.WriteLine($"\tr = {r:0.00}");
+        }
+        catch (Exception ex)
+        {
+            Console.Error.WriteLine($"\n{ex.Message}");
+            Environment.Exit(1);
+        }
     }
 
     public static double ParseDoubleVar(string varName)
