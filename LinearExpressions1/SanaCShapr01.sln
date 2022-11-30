@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32802.440
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinearExpressions1", "LinearExpressions1\LinearExpressions1.csproj", "{0A99AA27-C4D2-417A-9133-7D5FDFEFB3D4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SanaCShapr01", "LinearExpressions1\SanaCShapr01.csproj", "{0A99AA27-C4D2-417A-9133-7D5FDFEFB3D4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
