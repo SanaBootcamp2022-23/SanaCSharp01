@@ -1,6 +1,11 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using System.Runtime.CompilerServices;
 
+System.Globalization.CultureInfo customCulture = (System.Globalization.CultureInfo)
+                System.Threading.Thread.CurrentThread.CurrentCulture.Clone();
+customCulture.NumberFormat.NumberDecimalSeparator = ".";
+System.Threading.Thread.CurrentThread.CurrentCulture = customCulture;
+
 double z1, z2, y, m, n, x, b, a;
 
 Console.WriteLine("Hello! Let's solve 3 question with fractional variables \"m\", \"n\", \"x\", \"b\" and \"a\".");
@@ -10,7 +15,7 @@ Console.WriteLine("");
 
 Console.WriteLine("Now, you should input the fractional variable \"m\":");
 m = double.Parse(Console.ReadLine());
-Console.WriteLine("Graet! Input the fractional variable \"n\":");
+Console.WriteLine("Great! Input the fractional variable \"n\":");
 n = double.Parse(Console.ReadLine());
 Console.WriteLine("");
 
@@ -24,14 +29,17 @@ Console.WriteLine("");
 Console.WriteLine("And lets solve the last question!");
 Console.WriteLine("");
 
-Console.WriteLine("Now, you should input the fractional variable \"x\":");
+Console.WriteLine("You should input the fractional variable \"x\":");
 x = double.Parse(Console.ReadLine());
 Console.WriteLine("Graet! Input the fractional variable \"b\":");
 b = double.Parse(Console.ReadLine());
-Console.WriteLine("Graet! Input the fractional variable \"a\":");
+Console.WriteLine("And the last one - \"a\":");
 a = double.Parse(Console.ReadLine());
 Console.WriteLine("");
 
 y = 2.4 * Math.Abs( (Math.Pow(x,2) + b) / a) + (a - b) * Math.Pow(Math.Sin(a - b), 2)
      + Math.Pow(10, -2) * (x - b);
 Console.WriteLine($"Result of 2.4|(x^2+b)/a|+(a-b)+10^-2(x-b) is: {y}");
+
+Console.WriteLine("");
+Console.WriteLine("Good job!");

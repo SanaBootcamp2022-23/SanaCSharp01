@@ -1,10 +1,14 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
 using System.Runtime.CompilerServices;
+System.Globalization.CultureInfo customCulture = (System.Globalization.CultureInfo)
+                System.Threading.Thread.CurrentThread.CurrentCulture.Clone();
+customCulture.NumberFormat.NumberDecimalSeparator = ".";
+System.Threading.Thread.CurrentThread.CurrentCulture = customCulture;
 
 double a, b, c, d, x, y, z, r;
 
-Console.WriteLine("Hello! Today we`ll solve 4 question question with fractional variables " +
+Console.WriteLine("Hello! Today we`ll solve 4 question with fractional variables " +
                     "\"a\", \"b\", \"c\" and \"d\".");
 Console.WriteLine("Please, use separator \".\" when you'll enter numbers.");
 Console.WriteLine("Lets start!");
@@ -12,7 +16,7 @@ Console.WriteLine("");
 
 Console.WriteLine("Now, you should input the first fractional variable \"a\":");
 a = double.Parse(Console.ReadLine());
-Console.WriteLine("Graet! Input the second fractional variable \"b\":");
+Console.WriteLine("Great! Input the second fractional variable \"b\":");
 b = double.Parse(Console.ReadLine());
 Console.WriteLine("Very well! Input the third fractional variable \"c\":");
 c = double.Parse(Console.ReadLine());
@@ -31,3 +35,6 @@ Console.WriteLine($"The result of ((x^2-2x)^3-4(x^4+1))(1-b)/(5a+3b) is: {z}");
 
 r = (0.5 * a + 3 / 4 * b - 7 / 5) / (3 * c + 1) + (1 / (a - c));
 Console.WriteLine($"The result of (1/2a+3/4b-7/5)/(3c+1)+1/(a-c) is: {r}");
+
+Console.WriteLine("");
+Console.WriteLine("Good job!");
