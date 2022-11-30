@@ -6,13 +6,13 @@ class Program
     {
         Console.OutputEncoding = System.Text.Encoding.UTF8;
         Console.Write("Введіть число A: ");
-        double numberA = Convert.ToDouble(Console.ReadLine());
+        double numberA = Double.Parse(Console.ReadLine());
         Console.Write("Введіть число B: ");
-        double numberB = Convert.ToDouble(Console.ReadLine());
+        double numberB = Double.Parse(Console.ReadLine());
         Console.Write("Введіть число C: ");
-        double numberC = Convert.ToDouble(Console.ReadLine());
+        double numberC = Double.Parse(Console.ReadLine());
         Console.Write("Введіть число D: ");
-        double numberD = Convert.ToDouble(Console.ReadLine());
+        double numberD = Double.Parse(Console.ReadLine());
 
 
         double resultX = ((numberA + (2 * numberB) - numberC + numberD) / numberC * numberD) + ((numberA + numberB) / (numberC - numberD)) - ((numberA * numberA) / (numberB * numberB));
@@ -28,5 +28,6 @@ class Program
 
         double resultR = (((1 / 2) * numberA + (3 / 4) * numberB - (7 / 5)) / ((3 * numberC) + 1) + (1/(numberA-numberC)));
         Console.WriteLine("R = " + resultR);
+
     }
 }
