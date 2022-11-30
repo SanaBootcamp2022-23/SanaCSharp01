@@ -27,7 +27,8 @@ double z = ((Math.Pow(Math.Pow(x, 2) - (2 * x), 3) - 4 * (Math.Pow(x, 4) + 1)) *
 
 double r = ((0.5 * a) + (0.75 * b) - (7 / 5)) / (3 * c + 1) + (1 / (a - c));
 
-Console.WriteLine($"The first formula X = {x} \n" +
+Console.WriteLine(
+    $"The first formula X = {x} \n" +
     $"The second formula Y = {y} \n" +
     $"The third formula Z = {z} \n" +
     $"The fourth formula R = {r}");
