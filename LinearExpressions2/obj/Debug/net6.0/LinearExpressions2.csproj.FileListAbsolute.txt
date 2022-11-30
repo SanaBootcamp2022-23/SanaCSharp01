@@ -1,0 +1,15 @@
+F:\Courses\SanaCSharp01\SanaCShapr01\LinearExpressions2\bin\Debug\net6.0\LinearExpressions2.exe
+F:\Courses\SanaCSharp01\SanaCShapr01\LinearExpressions2\bin\Debug\net6.0\LinearExpressions2.deps.json
+F:\Courses\SanaCSharp01\SanaCShapr01\LinearExpressions2\bin\Debug\net6.0\LinearExpressions2.runtimeconfig.json
+F:\Courses\SanaCSharp01\SanaCShapr01\LinearExpressions2\bin\Debug\net6.0\LinearExpressions2.dll
+F:\Courses\SanaCSharp01\SanaCShapr01\LinearExpressions2\bin\Debug\net6.0\LinearExpressions2.pdb
+F:\Courses\SanaCSharp01\SanaCShapr01\LinearExpressions2\obj\Debug\net6.0\LinearExpressions2.csproj.AssemblyReference.cache
+F:\Courses\SanaCSharp01\SanaCShapr01\LinearExpressions2\obj\Debug\net6.0\LinearExpressions2.GeneratedMSBuildEditorConfig.editorconfig
+F:\Courses\SanaCSharp01\SanaCShapr01\LinearExpressions2\obj\Debug\net6.0\LinearExpressions2.AssemblyInfoInputs.cache
+F:\Courses\SanaCSharp01\SanaCShapr01\LinearExpressions2\obj\Debug\net6.0\LinearExpressions2.AssemblyInfo.cs
+F:\Courses\SanaCSharp01\SanaCShapr01\LinearExpressions2\obj\Debug\net6.0\LinearExpressions2.csproj.CoreCompileInputs.cache
+F:\Courses\SanaCSharp01\SanaCShapr01\LinearExpressions2\obj\Debug\net6.0\LinearExpressions2.dll
+F:\Courses\SanaCSharp01\SanaCShapr01\LinearExpressions2\obj\Debug\net6.0\refint\LinearExpressions2.dll
+F:\Courses\SanaCSharp01\SanaCShapr01\LinearExpressions2\obj\Debug\net6.0\LinearExpressions2.pdb
+F:\Courses\SanaCSharp01\SanaCShapr01\LinearExpressions2\obj\Debug\net6.0\LinearExpressions2.genruntimeconfig.cache
+F:\Courses\SanaCSharp01\SanaCShapr01\LinearExpressions2\obj\Debug\net6.0\ref\LinearExpressions2.dll
