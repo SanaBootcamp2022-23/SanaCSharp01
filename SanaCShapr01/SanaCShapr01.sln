@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32519.379
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinearExpressions1", "LinearExpressions1\LinearExpressions1.csproj", "{D279E196-C143-4BA2-AF4F-4DDEB2E14EC1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D279E196-C143-4BA2-AF4F-4DDEB2E14EC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D279E196-C143-4BA2-AF4F-4DDEB2E14EC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D279E196-C143-4BA2-AF4F-4DDEB2E14EC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D279E196-C143-4BA2-AF4F-4DDEB2E14EC1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {93CF7800-E397-42A3-A37C-E9E66A5B7AC4}
+	EndGlobalSection
+EndGlobal
