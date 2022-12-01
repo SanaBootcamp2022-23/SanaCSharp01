@@ -1,0 +1,15 @@
+﻿double m, n, z1, y, x, a, b, z2;
+Console.WriteLine("Input the value of a:");
+a = double.Parse(Console.ReadLine());
+Console.WriteLine("Input the value of b:");
+b = double.Parse(Console.ReadLine());
+Console.WriteLine("Input the value of m:");
+m = double.Parse(Console.ReadLine());
+Console.WriteLine("Input the value of n:");
+n = double.Parse(Console.ReadLine());
+Console.WriteLine("Input the value of x:");
+x = double.Parse(Console.ReadLine());
+z1 = ((m - 1) * Math.Sqrt(m) - (n - 1) * Math.Sqrt(n)) / (Math.Sqrt(Math.Pow(m, 3) * n) + (n * m) + (Math.Pow(m, 2) - m));
+z2 = (Math.Sqrt(m) - Math.Sqrt(n)) / m;
+y = 2.4 * Math.Abs((x * x + b) / a) + (a - b) * Math.Pow(Math.Sin(a - b), 2) + Math.Pow(10, -2) * (x - b);
+Console.WriteLine($"z1 = {z1}\nz2 = {z2}\ny = {y}");
