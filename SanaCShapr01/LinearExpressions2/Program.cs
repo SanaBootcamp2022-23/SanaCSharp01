@@ -32,3 +32,8 @@ Console.WriteLine("z1 = {0:F3}", z1);
 z2 = (Sqrt(m) - Sqrt(n))
     / m;
 Console.WriteLine("z2 = {0:F3}", z2);
+
+
+y = 2.4 * Abs((Pow(x, 2) + b)
+                        / a) + (a - b) * Pow(Sin(a - b), 2) + Pow(10, -2) * (x - b);
+Console.WriteLine("y = {0:F3}", y);
