@@ -17,12 +17,12 @@ d = double.Parse(Console.ReadLine());
 
 
 x = ((a + (2 * b) - c + d) / (c * d)) + ((a + b) / (c - d)) - (Math.Pow(a, 2) / Math.Pow(b, 2));
-Console.WriteLine("x = {0}", x);
+Console.WriteLine("x = {0:F3}", x);
 
 y = ((5 * (a + b) * (c - d))
-                / (0.5 * c)) + Math.Pow(d, 2) * ((Math.Pow(a, 2) - Math.Pow(b, 2)) 
-                                                                        / (b - a));
-Console.WriteLine("y = {0}", y);
+                / (0.5 * c)) + (Math.Pow(d, 2) * ((Math.Pow(a, 2) - Math.Pow(b, 2)) 
+                                                                        / (b - a)));
+Console.WriteLine("y = {0:F3}", y);
 
 z = ((Math.Pow(Math.Pow(x, 2) - (2 * x), 3) - 4 * (Math.Pow(x, 4) + 1)) * (1 - b))
      / ((5 * a) + (3 * b));
