@@ -27,3 +27,8 @@ n = 5;
 z1 = ((m - 1) * Sqrt(m) - (n - 1) * Sqrt(n))
     / (Sqrt(Pow(m, 3) * n) + (n * m) + Pow(m, 2) - m);
 Console.WriteLine("z1 = {0:F3}", z1);
+
+
+z2 = (Sqrt(m) - Sqrt(n))
+    / m;
+Console.WriteLine("z2 = {0:F3}", z2);
