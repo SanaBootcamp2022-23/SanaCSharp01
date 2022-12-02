@@ -1,0 +1,15 @@
+C:\Users\Admin\Documents\Kyrs\SanaCSharp01\LinearExpressions1\SanaCShapr01\bin\Debug\net6.0\SanaCShapr01.exe
+C:\Users\Admin\Documents\Kyrs\SanaCSharp01\LinearExpressions1\SanaCShapr01\bin\Debug\net6.0\SanaCShapr01.deps.json
+C:\Users\Admin\Documents\Kyrs\SanaCSharp01\LinearExpressions1\SanaCShapr01\bin\Debug\net6.0\SanaCShapr01.runtimeconfig.json
+C:\Users\Admin\Documents\Kyrs\SanaCSharp01\LinearExpressions1\SanaCShapr01\bin\Debug\net6.0\SanaCShapr01.dll
+C:\Users\Admin\Documents\Kyrs\SanaCSharp01\LinearExpressions1\SanaCShapr01\bin\Debug\net6.0\SanaCShapr01.pdb
+C:\Users\Admin\Documents\Kyrs\SanaCSharp01\LinearExpressions1\SanaCShapr01\obj\Debug\net6.0\SanaCShapr01.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\Kyrs\SanaCSharp01\LinearExpressions1\SanaCShapr01\obj\Debug\net6.0\SanaCShapr01.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Documents\Kyrs\SanaCSharp01\LinearExpressions1\SanaCShapr01\obj\Debug\net6.0\SanaCShapr01.AssemblyInfoInputs.cache
+C:\Users\Admin\Documents\Kyrs\SanaCSharp01\LinearExpressions1\SanaCShapr01\obj\Debug\net6.0\SanaCShapr01.AssemblyInfo.cs
+C:\Users\Admin\Documents\Kyrs\SanaCSharp01\LinearExpressions1\SanaCShapr01\obj\Debug\net6.0\SanaCShapr01.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\Kyrs\SanaCSharp01\LinearExpressions1\SanaCShapr01\obj\Debug\net6.0\SanaCShapr01.dll
+C:\Users\Admin\Documents\Kyrs\SanaCSharp01\LinearExpressions1\SanaCShapr01\obj\Debug\net6.0\refint\SanaCShapr01.dll
+C:\Users\Admin\Documents\Kyrs\SanaCSharp01\LinearExpressions1\SanaCShapr01\obj\Debug\net6.0\SanaCShapr01.pdb
+C:\Users\Admin\Documents\Kyrs\SanaCSharp01\LinearExpressions1\SanaCShapr01\obj\Debug\net6.0\SanaCShapr01.genruntimeconfig.cache
+C:\Users\Admin\Documents\Kyrs\SanaCSharp01\LinearExpressions1\SanaCShapr01\obj\Debug\net6.0\ref\SanaCShapr01.dll
