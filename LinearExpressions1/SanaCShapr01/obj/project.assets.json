@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Admin\\Documents\\Kyrs\\SanaCSharp01\\LinearExpressions1\\SanaCShapr01\\SanaCShapr01.csproj",
-      "projectName": "SanaCShapr01",
-      "projectPath": "C:\\Users\\Admin\\Documents\\Kyrs\\SanaCSharp01\\LinearExpressions1\\SanaCShapr01\\SanaCShapr01.csproj",
+      "projectUniqueName": "C:\\Users\\Admin\\Documents\\Kyrs\\SanaCSharp01\\LinearExpressions1\\SanaCShapr01\\LinearExptessions1.csproj",
+      "projectName": "LinearExptessions1",
+      "projectPath": "C:\\Users\\Admin\\Documents\\Kyrs\\SanaCSharp01\\LinearExpressions1\\SanaCShapr01\\LinearExptessions1.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Admin\\Documents\\Kyrs\\SanaCSharp01\\LinearExpressions1\\SanaCShapr01\\obj\\",
       "projectStyle": "PackageReference",
@@ -56,11 +56,17 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.410\\RuntimeIdentifierGraph.json"
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }
