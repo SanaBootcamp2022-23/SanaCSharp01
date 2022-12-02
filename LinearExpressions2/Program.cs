@@ -1,0 +1,30 @@
+﻿
+Console.WriteLine("--- Програма обчислення лiнiйних виразiв 2.0 ---");
+Console.WriteLine("Для обчислення необхiдно ввести початковi значення");
+double a, b, x, m, n, y, z1, z2;
+Console.WriteLine("Введiть а: ");
+a = double.Parse(Console.ReadLine());
+Console.WriteLine("Введiть b: ");
+b = double.Parse(Console.ReadLine());
+Console.WriteLine("Введiть x: ");
+x = double.Parse(Console.ReadLine());
+Console.WriteLine("Введiть m: ");
+m = double.Parse(Console.ReadLine());
+Console.WriteLine("Введiть n: ");
+n = double.Parse(Console.ReadLine());
+Console.WriteLine("- - - - - - - - - - - - -");
+Console.WriteLine("Вхiднi данi:");
+Console.WriteLine("а = " + a);
+Console.WriteLine("b = " + b);
+Console.WriteLine("x = " + x);
+Console.WriteLine("m = " + m);
+Console.WriteLine("n = " + n);
+Console.WriteLine("- - - - - - - - - - - - -");
+
+z1 = (((m - 1)*Math.Sqrt(m)) - ((n-1)*Math.Sqrt(n))) / (Math.Sqrt(Math.Pow(m,3)*n) + n*m + Math.Pow(m,2) - m);
+z2 = (Math.Sqrt(m) - Math.Sqrt(n)) / m;
+y = (2.4*Math.Abs((x*x + b)/a)) + ((a - b)*Math.Pow(Math.Sin(a - b),2)) + (Math.Pow(10, -2)*(x - b));
+Console.WriteLine("Результати виконання формул: ");
+Console.WriteLine("z1 = " + z1);
+Console.WriteLine("z2 = " + z2);
+Console.WriteLine("y = " + y);
