@@ -1,0 +1,17 @@
+﻿double m, n, a, b, x, z1, z2, y;
+Console.Write("Enter m: ");
+m = double.Parse(Console.ReadLine());
+Console.Write("Enter n: ");
+n = double.Parse(Console.ReadLine());
+Console.Write("Enter a: ");
+a = double.Parse(Console.ReadLine());
+Console.Write("Enter b: ");
+b = double.Parse(Console.ReadLine());
+Console.Write("Enter x: ");
+x = double.Parse(Console.ReadLine());
+z1 = ((m - 1) * Math.Sqrt(m) - (n - 1) * Math.Sqrt(n)) / (Math.Sqrt(m * m * m * n) + n * m + m * m - m);
+Console.WriteLine($"Result z1: {z1}");
+z2 = (Math.Sqrt(m) - Math.Sqrt(n)) / m;
+Console.WriteLine($"Result z2: {z2}");
+y = 2.4 * Math.Abs((x * x + b) / a) + (a - b) * Math.Pow(Math.Sin(a - b), 2) + Math.Pow(10, -2) * (x - b);
+Console.WriteLine($"Result y: {y}");
