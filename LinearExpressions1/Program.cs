@@ -1,0 +1,17 @@
+﻿double a, b, c, d;
+Console.WriteLine("Input a:");
+a = double.Parse(Console.ReadLine());
+Console.WriteLine("Input b:");
+b = double.Parse(Console.ReadLine());
+Console.WriteLine("Input c:");
+c = double.Parse(Console.ReadLine());
+Console.WriteLine("Input d:");
+d = double.Parse(Console.ReadLine());
+double X = ((a + 2 * b - c + d) / c / d) + (a + b) / (c - d) - Math.Pow(a, 2) / Math.Pow(a, 2);
+double Y = 5 * (a + b) * (c - d) / 0.5 / c + Math.Pow(d, 2) * (Math.Pow(a, 2) - Math.Pow(b, 2)) / (b - a);
+double Z = Math.Pow((X * X - 2 * X), 3) - 4 * (Math.Pow(X, 4) + 1) * (1 - b) / (5 * a + 3 * b);
+double R = ((a / 2 + 3 * b / 4 - 7 / 5) / 3 * c + 1) + 1 / (a - c);
+Console.WriteLine($"X=: {X}");
+Console.WriteLine($"Y=: {Y}");
+Console.WriteLine($"Z=: {Z}");
+Console.WriteLine($"R=: {R}");
