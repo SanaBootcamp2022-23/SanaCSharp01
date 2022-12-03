@@ -28,4 +28,4 @@ y = ((5 * (a + b) * (c - d)) / ((1.0 / 2.0) * c)) + (Math.Pow(d, 2.0) * (((Math.
 z = (((Math.Pow((Math.Pow(x, 2.0)) - (2 * x), 3.0)) - (4 * ((Math.Pow(x, 4.0)) + 1))) * (1 - b)) / (5 * a + 3 * b);
 r = (((1.0 / 2.0) * a) + ((3.0 / 4.0) * b) - (7.0 / 5.0)) / (3 * c + 1) + (1 / (a - c));
 
-Console.WriteLine("results:\nx = {0} ,\ny = {1} ,\nz = {2} ,\nr = {3}", x, y, z, r);
+Console.WriteLine($"results:\nx = {x} ,\ny = {y} ,\nz = {z} ,\nr = {r}");

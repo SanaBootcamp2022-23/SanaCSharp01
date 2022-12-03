@@ -33,4 +33,4 @@ z1 = (((m - 1) * Math.Sqrt(m)) - ((n - 1) * Math.Sqrt(n))) / (Math.Sqrt(Math.Pow
 z2 = (Math.Sqrt(m) - Math.Sqrt(n)) / m;
 y = 2.4 * Math.Abs((Math.Pow(x, 2.0) + b) / a) + (a - b) * ((1 - Math.Cos(2 * (a - b))) / 2) + (Math.Pow(10, -2.0) * (x - b));
 
-Console.WriteLine("results:\nz1 = {0} ,\nz2 = {1} ,\ny = {2}", z1, z2, y);
+Console.WriteLine($"results:\nz1 = {z1} ,\nz2 = {z2} ,\ny = {y}");
