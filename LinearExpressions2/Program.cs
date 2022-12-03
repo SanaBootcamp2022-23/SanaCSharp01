@@ -7,9 +7,9 @@ Console.Write("Input 'x' value: "); x = Convert.ToDouble((Console.ReadLine()));
 Console.Write("Input 'b' value: "); b = Convert.ToDouble((Console.ReadLine()));
 Console.Write("Input 'a' value: "); a = Convert.ToDouble((Console.ReadLine()));
 
-z1 = (Math.Sqrt(m) * (m - 1) - Math.Sqrt(n) * (n - 1)) / (Math.Sqrt(Math.Pow(3, m) * n) + n * m + m * m - m);
+z1 = (Math.Sqrt(m) * (m - 1) - Math.Sqrt(n) * (n - 1)) / (Math.Sqrt(Math.Pow(m, 3) * n) + n * m + m * m - m);
 z2 = (Math.Sqrt(m) - Math.Sqrt(n)) / m;
-y = 2.4 * Math.Abs((x * x + b) / a) + Math.Sin(a - b) * (a - b) + Math.Pow(-2, 10) * (x - b);
+y = 2.4 * Math.Abs((x * x + b) / a) + Math.Sin(a - b) * (a - b) + Math.Pow(10, -2) * (x - b);
 
 Console.WriteLine("Z1 equals " + z1);
 Console.WriteLine("Z2 equals " + z2);
