@@ -1,0 +1,17 @@
+﻿double m, n, x, z1, z2, y, b, a;
+Console.WriteLine("Enter the value of variable m:");
+m = double.Parse(Console.ReadLine());
+Console.WriteLine("Enter the value of variable n:");
+n = double.Parse(Console.ReadLine());
+Console.WriteLine("Enter the value of variable x:");
+x = double.Parse(Console.ReadLine());
+Console.WriteLine("Enter the value of variable b:");
+b = double.Parse(Console.ReadLine());
+Console.WriteLine("Enter the value of variable a: ");
+a = double.Parse(Console.ReadLine());
+z1 = ((m - 1) * Math.Sqrt(m) - (n - 1) * Math.Sqrt(n)) / (Math.Sqrt((Math.Pow(m, 3)) * n) + n * m + m * m - m);
+Console.WriteLine($"The value of the first calculation z1: {z1}");
+z2 = (Math.Sqrt(m) - Math.Sqrt(n)) / m;
+Console.WriteLine($"The value of the first calculation z2: {z2}");
+y = 2.4 * Math.Abs((x * x + b) / a) + (a - b) * Math.Pow(Math.Sin(a - b), 2) + Math.Pow(10, -2) * (x - b);
+Console.WriteLine($"The value of the third calculation y: {y}");
