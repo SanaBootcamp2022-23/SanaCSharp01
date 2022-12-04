@@ -1,0 +1,182 @@
+﻿<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{4EAA359A-F65A-483F-BDB7-5DD0B48A0A6B}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <NoStandardLibraries>false</NoStandardLibraries>
+    <AssemblyName>ConsoleApplication</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>SanaCSharp01</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include=".gitignore" />
+    <Content Include="LinearExpressions1\bin\Debug\net6.0\LinearExpressions1.dll" />
+    <Content Include="LinearExpressions1\bin\Debug\net6.0\LinearExpressions1.exe" />
+    <Content Include="LinearExpressions1\bin\Debug\net6.0\LinearExpressions1.pdb" />
+    <Content Include="LinearExpressions1\obj\Debug\net6.0\apphost.exe" />
+    <Content Include="LinearExpressions1\obj\Debug\net6.0\LinearExpressions1.csproj.FileListAbsolute.txt" />
+    <Content Include="LinearExpressions1\obj\Debug\net6.0\LinearExpressions1.dll" />
+    <Content Include="LinearExpressions1\obj\Debug\net6.0\LinearExpressions1.pdb" />
+    <Content Include="LinearExpressions1\obj\Debug\net6.0\refint\LinearExpressions1.dll" />
+    <Content Include="LinearExpressions1\obj\Debug\net6.0\ref\LinearExpressions1.dll" />
+    <Content Include="LinearExpressions2\bin\Debug\net6.0\LinearExpressions2.dll" />
+    <Content Include="LinearExpressions2\bin\Debug\net6.0\LinearExpressions2.exe" />
+    <Content Include="LinearExpressions2\bin\Debug\net6.0\LinearExpressions2.pdb" />
+    <Content Include="LinearExpressions2\obj\Debug\net6.0\apphost.exe" />
+    <Content Include="LinearExpressions2\obj\Debug\net6.0\LinearExpressions2.csproj.FileListAbsolute.txt" />
+    <Content Include="LinearExpressions2\obj\Debug\net6.0\LinearExpressions2.dll" />
+    <Content Include="LinearExpressions2\obj\Debug\net6.0\LinearExpressions2.pdb" />
+    <Content Include="LinearExpressions2\obj\Debug\net6.0\refint\LinearExpressions2.dll" />
+    <Content Include="LinearExpressions2\obj\Debug\net6.0\ref\LinearExpressions2.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".git\COMMIT_EDITMSG" />
+    <None Include=".git\config" />
+    <None Include=".git\description" />
+    <None Include=".git\HEAD" />
+    <None Include=".git\hooks\applypatch-msg.sample" />
+    <None Include=".git\hooks\commit-msg.sample" />
+    <None Include=".git\hooks\fsmonitor-watchman.sample" />
+    <None Include=".git\hooks\post-update.sample" />
+    <None Include=".git\hooks\pre-applypatch.sample" />
+    <None Include=".git\hooks\pre-commit.sample" />
+    <None Include=".git\hooks\pre-merge-commit.sample" />
+    <None Include=".git\hooks\pre-push.sample" />
+    <None Include=".git\hooks\pre-rebase.sample" />
+    <None Include=".git\hooks\pre-receive.sample" />
+    <None Include=".git\hooks\prepare-commit-msg.sample" />
+    <None Include=".git\hooks\push-to-checkout.sample" />
+    <None Include=".git\hooks\update.sample" />
+    <None Include=".git\index" />
+    <None Include=".git\info\exclude" />
+    <None Include=".git\logs\HEAD" />
+    <None Include=".git\logs\refs\heads\main" />
+    <None Include=".git\logs\refs\remotes\origin\HEAD" />
+    <None Include=".git\logs\refs\remotes\origin\main" />
+    <None Include=".git\objects\00\1a42124a733ffe44e97c4ce6e545d03b2aadff" />
+    <None Include=".git\objects\34\f2c9abd7524f12f7794e5af7479c60ef4d0811" />
+    <None Include=".git\objects\38\43fcaa3b4fa62e795af2b1883b77257419da06" />
+    <None Include=".git\objects\74\abf5c9766499f4fd79d4a9398f619d39c2e45e" />
+    <None Include=".git\objects\7e\5d6f1d42ee42bf0e0c6b27ade863c1b9b6b5e5" />
+    <None Include=".git\objects\93\46aeb5d6fc144e78d1f490dd8a3ff0f0b77110" />
+    <None Include=".git\objects\9b\bdcb903c31340429590aa8c6870d589b569ff0" />
+    <None Include=".git\objects\ab\f5eed1c07852e6eba24970e34a35eecf36ddd5" />
+    <None Include=".git\objects\ee\7423907f4eebb8ca5cced5f70b5124fe7e8baa" />
+    <None Include=".git\objects\f6\77870d0c686b51c35067f74dd8d95107633026" />
+    <None Include=".git\objects\pack\pack-aa01edd951cbc5d4ee84ef496238a23509ea8075.idx" />
+    <None Include=".git\objects\pack\pack-aa01edd951cbc5d4ee84ef496238a23509ea8075.pack" />
+    <None Include=".git\packed-refs" />
+    <None Include=".git\refs\heads\main" />
+    <None Include=".git\refs\remotes\origin\HEAD" />
+    <None Include=".git\refs\remotes\origin\main" />
+    <None Include=".vs\ProjectSettings.json" />
+    <None Include=".vs\SanaCSharp01\DesignTimeBuild\.dtbcache.v2" />
+    <None Include=".vs\SanaCSharp01\FileContentIndex\155ad228-6bc5-4b89-b042-7433be7dbedf.vsidx" />
+    <None Include=".vs\SanaCSharp01\FileContentIndex\1986cd27-044e-4651-a006-b2ce7b98879e.vsidx" />
+    <None Include=".vs\SanaCSharp01\FileContentIndex\45446e61-9f3a-4324-b419-fca5b3e8d4bd.vsidx" />
+    <None Include=".vs\SanaCSharp01\FileContentIndex\b5e7cccd-92ec-4ad3-b438-59807a97255b.vsidx" />
+    <None Include=".vs\SanaCSharp01\FileContentIndex\read.lock" />
+    <None Include=".vs\SanaCSharp01\v17\.suo" />
+    <None Include=".vs\slnx.sqlite" />
+    <None Include=".vs\VSWorkspaceState.json" />
+    <None Include="LinearExpressions1\bin\Debug\net6.0\LinearExpressions1.deps.json" />
+    <None Include="LinearExpressions1\bin\Debug\net6.0\LinearExpressions1.runtimeconfig.json" />
+    <None Include="LinearExpressions1\LinearExpressions1.csproj" />
+    <None Include="LinearExpressions1\obj\Debug\net6.0\LinearExpressions1.AssemblyInfoInputs.cache" />
+    <None Include="LinearExpressions1\obj\Debug\net6.0\LinearExpressions1.assets.cache" />
+    <None Include="LinearExpressions1\obj\Debug\net6.0\LinearExpressions1.csproj.AssemblyReference.cache" />
+    <None Include="LinearExpressions1\obj\Debug\net6.0\LinearExpressions1.csproj.CoreCompileInputs.cache" />
+    <None Include="LinearExpressions1\obj\Debug\net6.0\LinearExpressions1.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="LinearExpressions1\obj\Debug\net6.0\LinearExpressions1.genruntimeconfig.cache" />
+    <None Include="LinearExpressions1\obj\LinearExpressions1.csproj.nuget.dgspec.json" />
+    <None Include="LinearExpressions1\obj\LinearExpressions1.csproj.nuget.g.props" />
+    <None Include="LinearExpressions1\obj\LinearExpressions1.csproj.nuget.g.targets" />
+    <None Include="LinearExpressions1\obj\project.assets.json" />
+    <None Include="LinearExpressions1\obj\project.nuget.cache" />
+    <None Include="LinearExpressions1\obj\Release\net6.0\LinearExpressions1.AssemblyInfoInputs.cache" />
+    <None Include="LinearExpressions1\obj\Release\net6.0\LinearExpressions1.csproj.AssemblyReference.cache" />
+    <None Include="LinearExpressions1\obj\Release\net6.0\LinearExpressions1.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="LinearExpressions2\bin\Debug\net6.0\LinearExpressions2.deps.json" />
+    <None Include="LinearExpressions2\bin\Debug\net6.0\LinearExpressions2.runtimeconfig.json" />
+    <None Include="LinearExpressions2\LinearExpressions2.csproj" />
+    <None Include="LinearExpressions2\obj\Debug\net6.0\LinearExpressions2.AssemblyInfoInputs.cache" />
+    <None Include="LinearExpressions2\obj\Debug\net6.0\LinearExpressions2.assets.cache" />
+    <None Include="LinearExpressions2\obj\Debug\net6.0\LinearExpressions2.csproj.AssemblyReference.cache" />
+    <None Include="LinearExpressions2\obj\Debug\net6.0\LinearExpressions2.csproj.CoreCompileInputs.cache" />
+    <None Include="LinearExpressions2\obj\Debug\net6.0\LinearExpressions2.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="LinearExpressions2\obj\Debug\net6.0\LinearExpressions2.genruntimeconfig.cache" />
+    <None Include="LinearExpressions2\obj\LinearExpressions2.csproj.nuget.dgspec.json" />
+    <None Include="LinearExpressions2\obj\LinearExpressions2.csproj.nuget.g.props" />
+    <None Include="LinearExpressions2\obj\LinearExpressions2.csproj.nuget.g.targets" />
+    <None Include="LinearExpressions2\obj\project.assets.json" />
+    <None Include="LinearExpressions2\obj\project.nuget.cache" />
+    <None Include="LinearExpressions2\obj\Release\net6.0\LinearExpressions2.AssemblyInfoInputs.cache" />
+    <None Include="LinearExpressions2\obj\Release\net6.0\LinearExpressions2.csproj.AssemblyReference.cache" />
+    <None Include="LinearExpressions2\obj\Release\net6.0\LinearExpressions2.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="LinearExpressions1\obj\Debug\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" />
+    <Compile Include="LinearExpressions1\obj\Debug\net6.0\LinearExpressions1.AssemblyInfo.cs" />
+    <Compile Include="LinearExpressions1\obj\Debug\net6.0\LinearExpressions1.GlobalUsings.g.cs" />
+    <Compile Include="LinearExpressions1\obj\Release\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" />
+    <Compile Include="LinearExpressions1\obj\Release\net6.0\LinearExpressions1.AssemblyInfo.cs" />
+    <Compile Include="LinearExpressions1\obj\Release\net6.0\LinearExpressions1.GlobalUsings.g.cs" />
+    <Compile Include="LinearExpressions1\Program.cs" />
+    <Compile Include="LinearExpressions2\obj\Debug\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" />
+    <Compile Include="LinearExpressions2\obj\Debug\net6.0\LinearExpressions2.AssemblyInfo.cs" />
+    <Compile Include="LinearExpressions2\obj\Debug\net6.0\LinearExpressions2.GlobalUsings.g.cs" />
+    <Compile Include="LinearExpressions2\obj\Release\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" />
+    <Compile Include="LinearExpressions2\obj\Release\net6.0\LinearExpressions2.AssemblyInfo.cs" />
+    <Compile Include="LinearExpressions2\obj\Release\net6.0\LinearExpressions2.GlobalUsings.g.cs" />
+    <Compile Include="LinearExpressions2\Program.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include=".git\objects\info\" />
+    <Folder Include=".git\refs\tags\" />
+    <Folder Include=".vs\SanaCSharp01\FileContentIndex\merges\" />
+    <Folder Include="LinearExpressions1\bin\Release\net6.0\" />
+    <Folder Include="LinearExpressions1\obj\Release\net6.0\refint\" />
+    <Folder Include="LinearExpressions1\obj\Release\net6.0\ref\" />
+    <Folder Include="LinearExpressions2\bin\Release\net6.0\" />
+    <Folder Include="LinearExpressions2\obj\Release\net6.0\refint\" />
+    <Folder Include="LinearExpressions2\obj\Release\net6.0\ref\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+</Project>
