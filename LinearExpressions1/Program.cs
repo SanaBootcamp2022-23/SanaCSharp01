@@ -21,3 +21,9 @@ Console.WriteLine(resultX);
 
 double resultY = (5 * (varA + varB) * (varC - varD)) / (1 / 2.0 * varC) + Math.Pow(varD, 2) * ((Math.Pow(varA, 2) - Math.Pow(varB, 2)) / (varB - varA));
 Console.WriteLine(resultY);
+
+
+Console.Write("Введіть значення змінної X -> ");
+double varX = Convert.ToDouble(Console.ReadLine());
+double resultZ = (Math.Pow(varX*varX - 2 * varX, 3) - 4 * (Math.Pow(varX, 4) + 1)) * (1 - varB) / (5 * varA + 3 * varB);
+Console.WriteLine(resultZ);
