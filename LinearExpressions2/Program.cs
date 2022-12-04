@@ -17,3 +17,13 @@ Console.WriteLine(resultZ1);
 
 double resultZ2 = (Math.Sqrt(varM) - Math.Sqrt(varN)) / varM;
 Console.WriteLine(resultZ2);
+
+Console.Write("Введіть значення змінної A -> ");
+double varA = Convert.ToDouble(Console.ReadLine());
+Console.Write("Введіть значення змінної B -> ");
+double varB = Convert.ToDouble(Console.ReadLine());
+Console.Write("Введіть значення змінної X -> ");
+double varX = Convert.ToDouble(Console.ReadLine());
+
+double resultY = 2.4*(Math.Abs((Math.Pow(varX,2)+varB)/varA)) + (varA-varB)*Math.Sin(varA-varB)*Math.Sin(varA-varB)+Math.Pow(10,-2)*(varX-varB) ;
+Console.WriteLine(resultY);
