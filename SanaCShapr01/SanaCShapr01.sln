@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinearExpressions1", "LinearExpressions1\LinearExpressions1.csproj", "{C3A14FD1-89A7-4F52-8E55-0B12D6DCBD8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinearExpressions2", "LinearExpressions2\LinearExpressions2.csproj", "{8CC10A70-F41A-4EF0-BC8E-46071AEB6DD5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C3A14FD1-89A7-4F52-8E55-0B12D6DCBD8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3A14FD1-89A7-4F52-8E55-0B12D6DCBD8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3A14FD1-89A7-4F52-8E55-0B12D6DCBD8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3A14FD1-89A7-4F52-8E55-0B12D6DCBD8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CC10A70-F41A-4EF0-BC8E-46071AEB6DD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CC10A70-F41A-4EF0-BC8E-46071AEB6DD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CC10A70-F41A-4EF0-BC8E-46071AEB6DD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CC10A70-F41A-4EF0-BC8E-46071AEB6DD5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D52A1CDC-DF2F-4E6A-88FB-470EB32BDD03}
+	EndGlobalSection
+EndGlobal
