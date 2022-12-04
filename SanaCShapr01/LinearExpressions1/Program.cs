@@ -17,8 +17,7 @@ z = ((x * x - 2 * x * x) * (x * x - 2 * x * x) * (x * x - 2 * x * x) - 4 * (x * 
 r = (((1.0 / 2 * a) +(3.0/4*b)-7.0/5) / (3*c+1))+((1.0)/(a-c));
 
 
-
-Console.WriteLine(x);
-Console.WriteLine(y);
-Console.WriteLine(z);
-Console.WriteLine(r);
+Console.WriteLine("x = {0}", x);
+Console.WriteLine("y = {0}", y);
+Console.WriteLine("z = {0}", z);
+Console.WriteLine("r = {0}", r);
