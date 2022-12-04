@@ -18,3 +18,6 @@ double varD = Convert.ToDouble(Console.ReadLine());
 
 double resultX = (varA + 2 * varB - varC + varD) / (varC * varD) + (varA + varB) / (varC - varD) - Math.Pow(varA, 2) / Math.Pow(varB, 2);
 Console.WriteLine(resultX);
+
+double resultY = (5 * (varA + varB) * (varC - varD)) / (1 / 2.0 * varC) + Math.Pow(varD, 2) * ((Math.Pow(varA, 2) - Math.Pow(varB, 2)) / (varB - varA));
+Console.WriteLine(resultY);
