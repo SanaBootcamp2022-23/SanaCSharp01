@@ -14,3 +14,6 @@ double varN = Convert.ToDouble(Console.ReadLine());
 
 double resultZ1 = ((varM - 1) * Math.Sqrt(varM) - (varN - 1) * Math.Sqrt(varN)) / (Math.Sqrt(Math.Pow(varM, 3) * varN) + varN * varM + Math.Pow(varM, 2) - varM);
 Console.WriteLine(resultZ1);
+
+double resultZ2 = (Math.Sqrt(varM) - Math.Sqrt(varN)) / varM;
+Console.WriteLine(resultZ2);
