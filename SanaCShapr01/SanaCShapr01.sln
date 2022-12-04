@@ -5,6 +5,8 @@ VisualStudioVersion = 17.3.32901.215
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinearExpressions1", "LinearExpressions1\LinearExpressions1.csproj", "{24FD1889-2123-4751-9C23-0516DB3665DE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinearExpressions2", "LinearExpressions2\LinearExpressions2.csproj", "{76A29A19-010F-431E-8C2D-534745E0738A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{24FD1889-2123-4751-9C23-0516DB3665DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{24FD1889-2123-4751-9C23-0516DB3665DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{24FD1889-2123-4751-9C23-0516DB3665DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76A29A19-010F-431E-8C2D-534745E0738A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76A29A19-010F-431E-8C2D-534745E0738A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76A29A19-010F-431E-8C2D-534745E0738A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76A29A19-010F-431E-8C2D-534745E0738A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
