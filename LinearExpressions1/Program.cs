@@ -1,6 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-
-double a, b, c, d, x, y, z, r;
+﻿double a, b, c, d, x, y, z, r;
 Console.WriteLine("a:");
 a = Convert.ToDouble(Console.ReadLine());
 Console.WriteLine("b:");
